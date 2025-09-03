@@ -3,14 +3,20 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
   "scripts": {
     "dev": "wrangler dev",
     "build": "wrangler build",
     "format": "prettier . --check",
-    "format:fix": "prettier . --write"
+    "format:fix": "prettier . --write",
+    "prepare": "husky"
   },
   "packageManager": "pnpm@10.15.1",
   "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.6",
     "prettier": "^3.6.2",
     "typescript": "^5.9.2",
     "wrangler": "^4.33.2"
