@@ -1,5 +1,7 @@
 {
-  "name": "epic-cors-proxy-dev",
+  "$schema": "https://unpkg.com/wrangler@4.33.2/config-schema.json",
   "compatibility_date": "2025-08-29",
-  "main": "./src/index.ts"
+  "main": "./src/index.ts",
+  "name": "epic-cors-proxy",
+  "send_metrics": false
 }
