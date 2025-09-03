@@ -1,0 +1,5 @@
+{
+  "name": "epic-cors-proxy-dev",
+  "compatibility_date": "2025-08-29",
+  "main": "./src/index.ts"
+}
